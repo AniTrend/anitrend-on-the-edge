@@ -1,4 +1,4 @@
-FROM denoland/deno:2.1.4 as base
+FROM denoland/deno:2.1.6 as base
 WORKDIR /usr/app
 COPY . /usr/app
 
