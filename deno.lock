@@ -49,6 +49,7 @@
     "npm:dom-mutator@0.6": "0.6.0",
     "npm:mongodb@6.10.0": "6.10.0",
     "npm:mongodb@6.11.0": "6.11.0",
+    "npm:mongodb@6.12.0": "6.12.0",
     "npm:path-to-regexp@6.2.1": "6.2.1"
   },
   "jsr": {
@@ -299,6 +300,14 @@
     },
     "mongodb@6.11.0": {
       "integrity": "sha512-yVbPw0qT268YKhG241vAMLaDQAPbRyTgo++odSgGc9kXnzOujQI60Iyj23B9sQQFPSvmNPvMZ3dsFz0aN55KgA==",
+      "dependencies": [
+        "@mongodb-js/saslprep",
+        "bson@6.10.1",
+        "mongodb-connection-string-url"
+      ]
+    },
+    "mongodb@6.12.0": {
+      "integrity": "sha512-RM7AHlvYfS7jv7+BXund/kR64DryVI+cHbVAy9P61fnb1RcWZqOW1/Wj2YhqMCx+MuYhqTRGv7AwHBzmsCKBfA==",
       "dependencies": [
         "@mongodb-js/saslprep",
         "bson@6.10.1",
